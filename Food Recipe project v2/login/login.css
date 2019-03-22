@@ -1,0 +1,41 @@
+#container {
+	width: 40%;
+	min-width: 420px;
+	margin: 30px auto 0 auto;
+	background: #E4EDF0;
+	border: 0.07px #C3DBE3 solid;
+	border-radius: 30px;
+	height: 390px;
+}
+#title {
+	font-family: 'Mali', cursive;
+	font-weight: 600;
+	color: #363C3D;
+	text-align: center;
+}
+label {
+	font-family: 'Roboto Slab';
+	font-size: 16px;
+}
+.style-two {
+    border: 0;
+    height: 1.1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0));
+}
+.forgot {
+	text-align: center;
+	padding-right: 5%;
+	font-size: 1.1em;
+	letter-spacing: 1.5px;
+}
+.forgot a{
+	padding-right: 15%;
+}
+.form-group {
+	padding: 0 10%;
+}
+.form-group-button {
+	padding: 0 41%;
+	/*align-content: center;*/
+
+}

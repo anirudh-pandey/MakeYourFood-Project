@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+
+}
+body {
+  background-image: linear-gradient(to right, rgba(255,131,98,1), #5776DE);
+}
+body {
+	/*background: #D5EDDD;*/
+	/*overflow: auto;*/
+
+}
+
+#sidebar {
+	position: fixed;
+	width:260px;
+	height: 100%;
+	left:-260px;
+	/*background-color: #ff5c40;*/
+	background-color: rgba(255,131,98,0.6);
+	transition:all 0.7s ease;
+	transition-delay: 0.1s;
+	align-items: stretch;
+}
+#sidebar.active {
+	left: 0px;
+}
+.mainLis {
+	font-family: 'Roboto Slab', serif;
+	/*color: rgba(230,230,230,0.9);*/
+	color: #fff;
+	letter-spacing: 1.5px;
+	font-size: 0.9em;
+	list-style: none;
+	/*text-align-last: right;*/
+	padding: 10px 10px 15px 10px;
+	border-radius: 7px;
+	border-top: 0.5px solid rgba(100,100,100,0.3);
+	border-bottom: 0.5px solid rgba(100,100,100,0.3);
+	cursor: pointer;
+	overflow: auto;
+
+}
+#wholeMainList li:hover {
+	background-color: #5AADE6;
+}
+#sidebar .icon {
+	/*position: absolute;*/
+	left:260px;
+	/*top: 0px;*/
+}
+@font-face{
+	font-family: Beyond Mountains;
+	src: url('beyond_the_mountains/beyond_the_mountains.otf'); 
+} 
+h1 { font-family: Beyond Mountains; }
+#title {
+	color: #000;
+	font-family: 'Josefin Sans', sans-serif;
+  	font-weight: 600;
+  	padding: 12px;
+  	/*font-weight: bold;*/
+  	font-size: 1.4em;
+  	letter-spacing: 4px;
+  	text-align: center;
+  	text-decoration: none;
+  	text-shadow: #90E6FC 1px 0 10px;
+}
+.active {
+  background-color: #5AADE6;
+  /*color: #6B6564;*/
+  color: white;
+}
+.sizeIcons {
+	/*float: left;*/
+	width: 30px;
+	height: 30px;
+}
+.arrowIcons {
+	/*float: left;*/
+	width: 15px;
+	height: 15px;
+	float: right;
+}
+.dropContainer {
+	display: none;
+	/*border-radius: 0;*/
+	/*font-size: 20px;*/
+	/*scroll: auto;*/
+	background-color: #70736F;
+	font-color: white;
+
+	padding-left: 15px;
+}
+.dropContainer ul li {
+	font-family: 'Quicksand', sans-serif;
+	display: inline-flex;
+	margin: 2px;
+}
+a {
+	text-decoration: none;
+}
+.link a:hover {
+	color:#4653E8;
+}
+.link a {
+	font-family: 'Quicksand', sans-serif;
+	color: #0C0D0D;
+	letter-spacing: 2px;
+
+}
+.link {
+	font-size: 1em;
+	padding-top: 4px;
+	padding-left: 12px;
+	padding-right: 24px;
+	/*color: white;*/
+	float: right;
+
+	/*text-decoration: none;*/
+}
+#btn {
+	padding: 20px 56px;
+	align-content: center;
+
+}
+@media(max-width:960px) {
+	.link {
+		font-size: 1em;
+		padding-top: 4px;
+		padding-left: 6px;
+		padding-right: 6px;
+		/*color: white;*/
+		float: right;
+
+		/*text-decoration: none;*/
+	}
+	#sidebar {
+		position: fixed;
+		width:220px;
+		height: 100%;
+		left:-220px;
+		/*background-color: #ff5c40;*/
+		background-color: rgba(255,131,98,1);
+		transition:all 0.7s ease;
+		transition-delay: 0.1s;
+		align-items: stretch;
+	}
+	#sidebar .icon {
+		/*position: absolute;*/
+		left:220px;
+		/*top: 0px;*/
+	}
+}
