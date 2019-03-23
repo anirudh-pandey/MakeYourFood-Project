@@ -1,0 +1,58 @@
+body {
+  background: url(images/image3.jpeg);
+  background-size:cover;
+  /*background-width:auto;*/
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#hello:hover {
+  color: white; 
+}
+#hello {
+  font-family: "Montserrat";
+  border-color: "100  px solid #3E334A";
+  background: #C8DBE8;
+}
+
+h1 {
+  padding-top:12%;
+  font-family:"titillium web";
+  font-weight: 700;
+  font-stretch: 2px;
+  letter-spacing: 5px;
+  text-shadow: 0px 4px 3px rgba(255,255,255,0.4),
+  0px 8px 13px rgba(255,255,255,0.1),
+  0px 18px 23px rgba(255,255,255,0.1);
+}
+#head {
+  color:#3E334A;
+  /*color: #2D2436;*/
+  font-weight: bold;
+  text-align:center;
+  font-size:1.4em;
+  font-family: "satisfy";  
+  letter-spacing: 1.7px;
+}
+
+hr.style-two {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  width:450px;
+  max-width: 80%;
+}
+
+.btn-lg {
+  font-family: "titillium web"; 
+  color: #3E334A;
+  /*background-color: rgba(237, 241, 242, 0.4);*/ 
+  border: 0.5px solid #3E334A;
+
+}
+.btn-lg:hover {
+  background-color: rgba(237, 241, 242, 0.4);
+}
+
+#trayIcon {
+  width: 35px;height: 35px;
+}

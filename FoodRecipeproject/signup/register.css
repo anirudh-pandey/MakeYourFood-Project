@@ -1,0 +1,43 @@
+body {
+	background-image: linear-gradient(to right, #D2D0D6, #838287);
+}
+#container {
+	width: 40%;
+	min-width: 420px;
+	margin: 20px auto 0 auto;
+    background-image: linear-gradient(#D66F82, #906FD6);
+	/*background: #E4EDF0;*/
+	border: 0.07px #C3DBE3 solid;
+	border-radius: 30px;
+	height: 480px;
+}
+/*body {
+	background: coral; 
+}*/
+#title {
+	font-family: 'Mali', cursive;
+	font-weight: 600;
+	color: #363C3D;
+	text-align: center;
+}
+label {
+	font-family: 'Roboto Slab';
+	font-size: 16px;
+} 		 
+.style-two {
+    border: 0;
+    height: 1.1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0));
+}
+.forgot {
+	text-align: center;
+	font-size: 1.3em;
+	letter-spacing: 1.5px;
+}
+.form-group {
+	padding: 0 15%;
+}
+.form-group-button {
+	padding: 0 39%;
+	/*align-content: center;*/
+}
